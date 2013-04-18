@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:orientation="horizontal"
+        android:paddingTop="1dip"
+        android:paddingRight="4dip"
+        android:paddingLeft="1dip"
+        android:paddingBottom="3dip" >
+  
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2dip"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/avatar"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/avatar"
+        android:layout_alignTop="@+id/avatar"
+        android:layout_toRightOf="@+id/avatar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_alignRight="@+id/layout_btn"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+             >
+
+            <TextView
+                android:id="@+id/nomprenom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Nom Prenom"
+                android:textColor="#094591"
+                android:textSize="30px"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/iconweasper_small"
+                android:gravity="right"
+                android:layout_weight="0" 
+                android:layout_marginRight="15dip"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/iconinvite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoninviterate"
+                android:paddingLeft="30dip"
+                android:text="Invite"
+                android:textStyle="bold"
+                android:textSize="25px"
+                android:drawableLeft="@drawable/iconinvite"
+	  			android:drawablePadding="-60dip"
+                android:textColor="#ce136b"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/iconrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttoninviterate"
+                android:paddingLeft="30dip"
+                android:text="Rate"
+                android:textStyle="bold"
+                android:textSize="25px"
+                android:drawableLeft="@drawable/iconrate"
+	  			android:drawablePadding="-60dip"
+                android:textColor="#ce136b"
+                android:layout_weight="1" />
+        </LinearLayout>
+          </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

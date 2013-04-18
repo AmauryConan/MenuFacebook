@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N.Prenom"
+             />
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etoile"
+             />
+                  </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applications"
+            style="@style/MenuDrawer.Widget.Category" />
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+            
+        <TextView
+            android:id="@+id/findsomeone"
+            style="@style/MenuDrawer.Widget.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="40sp"
+            android:text="Find someone" />
+        
+                <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+
+        <TextView
+            android:id="@+id/Perception"
+            style="@style/MenuDrawer.Widget.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableLeft="@drawable/perception"
+            android:drawablePadding="40sp"
+            android:text="Perception" />
+
+                <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+
+        <TextView
+            android:id="@+id/Questions"
+            style="@style/MenuDrawer.Widget.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/questions"
+            android:drawablePadding="40sp"
+            android:text="Questions" />
+
+                <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+
+        <TextView
+            android:id="@+id/Invitations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/invitations"
+            android:text="Invitations"
+            android:drawablePadding="40sp"
+            style="@style/MenuDrawer.Widget.Title" />
+                <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My account"
+            android:drawablePadding="40sp"
+            style="@style/MenuDrawer.Widget.Category" />
+                <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+
+        <TextView
+            android:id="@+id/Myprofil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/myprofil"
+            android:text="My profil"
+            android:drawablePadding="40sp"
+            style="@style/MenuDrawer.Widget.Title" />
+                <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+
+        <TextView
+            android:id="@+id/Howitworks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/howworks"
+            android:text="Howitworks"
+            android:drawablePadding="40sp"
+            style="@style/MenuDrawer.Widget.Title" />
+                <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/seperateline"
+             />
+        
+		<TextView
+            android:id="@+id/Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/settings"
+            android:text="Settings"
+            android:drawablePadding="40sp"
+            style="@style/MenuDrawer.Widget.Title" />
+		        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/seperateline"
+             />
+    </LinearLayout>
+</ScrollView>
