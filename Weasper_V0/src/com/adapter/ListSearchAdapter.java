@@ -10,6 +10,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ListSearchAdapter extends ArrayAdapter<String> {
+  if (i == 0)
+  {
+    i++;
+  }
   private final Context context;
   private final String[] values;
 
